@@ -1,3 +1,4 @@
+import { existsFile } from "./existsFile";
 import { createFile } from "./createFile";
 import { deleteFile } from "./deleteFile";
 import { toSpacedValue } from "./toSpacedValue";
@@ -27,6 +28,7 @@ export {
   capitalizedValue,
   createFile,
   deleteFile,
+  existsFile,
   executeCommand,
   commandAlreadyExecuted
 }
